@@ -1,0 +1,358 @@
+body{
+    background-color: #f4f4f4;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(215, 239, 255);
+}
+.top1{
+    width: 1190px;
+    height: 80px;
+    background-image: url(http://img30.360buyimg.com/babel/jfs/t1/125653/3/24031/34173/631aaee7Ee6da0c17/6a510cecedcbdf23.jpg.avif);
+    background-size: cover;
+    margin: 0 auto;
+}
+.top2{
+    float: right;
+}
+.nev{
+    width: 100%;
+    height: 30px;
+    background-color: #e3e4e5;
+}
+.box{
+    width: 100%;
+    height: 141px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.box1{
+    position: relative;
+    width: 1190px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.bo .ico{
+    
+    background-image: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.1/assets/sprite/header/sprite@2x.png);
+    background-repeat: no-repeat;
+    background-size: 190px 160px;
+}
+.ico{
+    width: 190px;
+    height: 120px;
+    background-image: url(http://misc.360buyimg.com/mtd/pc/index_2019/1.0.1/assets/sprite/header/sprite.png);
+}
+.bor{
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+}
+.bor .but{
+    float: right;
+    border-radius: 0;
+    right: 0;
+    width: 60px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    background-color: #e1251b;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.bor input{
+    outline: none;
+    left: 0;
+    padding: 2px 44px 2px 17px;
+    width: 422px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+}
+.xiala{
+    display: none;
+    position: absolute;
+    left: 260px;
+    top: 62px;
+    width:490px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 2px 1px rgb(0 0 0 / 20%);
+    box-shadow: 1px 2px 1px rgb(0 0 0 / 20%);
+}
+.box2{
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 480px;
+}
+.cen{
+    margin: 0 auto;
+    width: 1190px;
+    height: 480px;
+}
+.cen1{
+    float: left;
+    width: 190px;
+    height: 480px;
+    margin-right: 10px;
+    background-color: #fefefe;
+}
+.cen2{
+    margin-right: 10px;
+    float: left;
+    width: 590px;
+    height: 480px;
+}
+.cen3{
+    float: left;
+    width: 190px;
+    height: 480px;
+    background-color: #fefefe;
+}
+.zuo,.you{
+    width: 25px;
+    height: 35px;
+    background-color: #ccc;
+}
+.zuo{
+    position: relative;
+    left: 200px;
+    top: 50%;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.you{
+    position: relative;
+    right: -765px;
+    top: 43%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.ul li{
+    margin-right: 4px;
+    float: left;
+    position: relative;
+    left: 430px;
+    bottom: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#ddd;
+}
+.ul .li{
+    background-color:#fefefe;
+}
+.box3{
+    margin-top: 15px;
+    width: 100%;
+    height: 3500px;
+}
+.acen{
+    margin: 0 auto;
+    width: 1190px;
+    height: 3500px;
+    background-color: #fff;
+}
+.miaosha{
+    width: 1190px;
+    height: 260px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+.tese{
+    width: 1190px;
+    height: 980px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+.pindao{
+    width: 1190px;
+    height: 950px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+.weini{
+    width: 1190px;
+    height: 1000px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+.bcen{
+    position: fixed;
+    left: 90%;
+    top: 522px;
+    width: 58px;
+    background-color: #fefefe;
+    font-size: 14px;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+.bcen p{
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    color: #333;
+    margin: 0 auto;
+    width: 36px;
+    height: 60px; 
+    background-color: #fefefe;
+   
+}
+.bcen p::after{
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #333;
+    bottom: 0;
+    left: 15px;
+    width: 36px;
+}
+.bcen .p4::after{
+    border-bottom:none;
+}
+.bcen .p5::after{
+        border-bottom:none;
+}
+.bcen .p5{
+        display: none;
+}
+.daojishi{
+    width:190px ;
+    height: 260px;
+    background-image: url(	https://misc.360buyimg.com/mtd/pc/index_2019/1.0.1/assets/img/4a15d8883775742e3efbb850ae14def7.png);
+    box-sizing: border-box;
+    padding: 18px;
+    margin: 0px;
+    text-align: center;
+    background-color: #e1251b;
+}
+.sha{
+    width:190px;
+    height: 45px;
+    margin-top: 31px;
+    margin-left: -17px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.juli{
+    margin-top: 90px;
+    color: #fff;
+    font-size: 14px;
+}
+.juli i{
+    font-size: 18px;
+}
+.d1 div{
+    position: relative;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    float: left;
+    color: #fff;
+    line-height: 30px;
+    font-size: 20px;
+}
+.s1{
+    position: absolute;
+    left: -73px;
+    top: 4px;
+    color: #fff;
+    font-size: 18px;
+}
+.s2{
+    position: absolute;
+    left: -33px;
+    top: 4px;
+    color: #fff;
+    font-size: 18px;
+}
+.tese-left{
+    box-sizing: border-box;
+    width: 590px;
+    height: 340px;
+    background-color: #fff;
+}
+.shang{
+    width: 590px;
+    height: 60px;
+    padding: 0 20px;
+}
+.h3{
+    font-size: 24px;
+}
+.a{
+    margin-left: 398px;
+    margin-top: -21px;
+}
+.shang a{
+    color: #999;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.xia{
+    overflow: hidden;
+    width: 560px;
+    height: 270px;
+    background-color: #e1251b;
+}
+.xia div{
+    width: 560px;
+    height: 270px;
+}
+.bo .bor{
+    position: absolute;
+    left: 260px;
+    top: 26px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+
+}
+
+.cloneBor{
+    position: absolute;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+    top: 10px;
+    left: 500px;
+}
+
+.divLogo{
+    width: 190px;
+    height: 40px;
+    background-image: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.1/assets/sprite/header/sprite.png);
+    background-position: 0 -120px;
+    position: absolute;
+    left: 300px;
+    top: 5px;
+}
+.bor input,.cloneBor input{
+    outline: none;
+    left: 0;
+    padding: 2px 44px 2px 17px;
+    width: 422px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+}
+.cen1 div{
+    width: 190px;
+    height: 150px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
